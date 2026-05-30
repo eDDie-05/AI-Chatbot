@@ -4,10 +4,10 @@ import random
 
 # Simple responses
 responses = {
-    "hello": ["Hi!", "Hello!", "Hey there!"],
+    "hello": ["Hi mf!", "Hello mf!", "Hey there mf!"],
     "how are you": ["I'm doing well.", "Great!", "Awesome!"],
     "bye": ["Goodbye!", "See you later!"],
-    "what is your name": ["I'm a Python chatbot."],
+    "what is your name": ["I'm a eDDie chatbot."],
 }
 
 def get_response(message):
@@ -52,5 +52,4 @@ send_button = tk.Button(window, text="Send", command=send_message)
 send_button.pack(pady=5)
 
 entry.bind("<Return>", lambda event: send_message())
-
 window.mainloop()
