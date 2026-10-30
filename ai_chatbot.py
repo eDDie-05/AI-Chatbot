@@ -4,10 +4,10 @@ import random
 
 # Simple responses
 responses = {
-    "hello": ["Hi mf!", "Hello mf!", "Hey there mf!"],
-    "how are you": ["I'm doing well.", "Great!", "Awesome!"],
+    "hello": ["Hi there!", "Hello!", "Hey! How can I help?"],
+    "how are you": ["I am doing well, thank you.", "Doing well! How can I help?", "All good here."],
     "bye": ["Goodbye!", "See you later!"],
-    "what is your name": ["I'm a eDDie chatbot."],
+    "what is your name": ["I am the desktop rule-based chatbot."],
 }
 
 def get_response(message):
@@ -38,7 +38,7 @@ def send_message():
 
 # GUI
 window = tk.Tk()
-window.title("AI Chatbot")
+window.title("Desktop Rule-Based Chatbot")
 window.geometry("600x500")
 
 chat_area = scrolledtext.ScrolledText(window)
