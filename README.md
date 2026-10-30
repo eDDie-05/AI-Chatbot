@@ -1,3 +1,4 @@
+[![Daily GitHub Commit](https://github.com/eDDie-05/AI-Chatbot/actions/workflows/daily-commit.yml/badge.svg)](https://github.com/eDDie-05/AI-Chatbot/actions/workflows/daily-commit.yml)
 #  AI Chatbot — Python
 
 A simple AI chatbot built with **Python** that allows users to interact with a computer through natural-language conversations.
